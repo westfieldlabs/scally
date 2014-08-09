@@ -23,7 +23,7 @@
   ### Utilities
 
   - Every Utility needs to be applied via all the main breakpoints (see Alec).
-  - Spacing, use all spacing `var`s and apply to `margin` and `padding` on all sides of the box.
+  - Spacing, use all spacing `var`s and apply to `margin` and `padding` on all sides of the box. (Alec)
   - Positioning:
     - Top left.
     - Top right.
