@@ -53,7 +53,6 @@
 ## Utilities
 
 - Convert to Sass 3.3 BEM syntax.
-- Every Utility needs to be applied via all the main breakpoints (see Alec).
 - CodePen for Position.
 - State.
 - Cursor.
