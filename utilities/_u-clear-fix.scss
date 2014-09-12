@@ -11,8 +11,7 @@
  */
 
 
-%u-clear-fix,
-.u-clear-fix {
+@include generate-at-breakpoints(u-clear-fix) {
   &:after {
     content: "";
     display: table;
