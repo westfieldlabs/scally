@@ -26,14 +26,13 @@
  * The actual link.
  */
 
-%u-link-complex,
-.u-link-complex {
-	&,
-	&:hover,
-	&:focus {
-		text-decoration: none;
-		color: inherit;
-	}
+@include generate-at-breakpoints(u-link-complex) {
+  &,
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 
@@ -41,13 +40,12 @@
 	 * The piece of the link that needs to act like a link.
 	 */
 
-  %u-link-complex__target,
-	.u-link-complex__target {
-		color: $colour-link;
+  @include generate-at-breakpoints(u-link-complex__target) {
+    color: $colour-link;
 
-		&:hover,
-		&:focus {
-			text-decoration: underline;
-			color: $colour-link-hover;
-		}
-	}
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+      color: $colour-link-hover;
+    }
+  }
