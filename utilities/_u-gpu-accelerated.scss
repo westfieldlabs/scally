@@ -14,8 +14,7 @@
  */
 
 
-%u-gpu-accelerated,
-.u-gpu-accelerated {
+@include generate-at-breakpoints(u-gpu-accelerated) {
   backface-visibility: hidden;
   transform: translate3d(0, 0, 0);
   perspective: 1000;
