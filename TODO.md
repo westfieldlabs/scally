@@ -27,6 +27,11 @@
 
 ## Components
 
+- Buttons:
+  - Link.
+  - Button.
+  - Hamburger.
+- Form.
 - Circled number.
 - Fancy `select` (see 'Parking' project).
 - Block quote.
@@ -57,7 +62,6 @@
 ### Documentation
 
 - Update CSS Guidelines.
-- Consistent naming esp. for sizes.
 - Sass watch:
   `sass --watch demo-styles.scss:demo-styles.css --style compressed`
   `sass --watch style.scss:style.css --style compressed`
